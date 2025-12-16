@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="gl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🦁 Sons de Animais 🐶</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/png" href="/favicon.ico/favicon-96x96.png" sizes="96x96" />
+    </head>
+  <body>
+    <header class="header">
+      <div class="header__titulo">
+        <img
+          src="./assets/SonsdeAnimais.png"
+          alt="Título de Sons de Animais"
+          class="header__img"
+        />
+        <p class="header__p">
+          Fai clic no botón do animal para escoitar o seu son
+        </p>
+      </div>
+    </header>
+    <main class="main">
+      <section class="animais">
+        <div id="animalsContainer"></div>
+
+        <template id="bottonAnimal">
+          <button class="animais__button">
+            <img class="animais__img" src="" alt="" />
+            <p class="animais__p"></p>
+          </button>
+        </template>
+        
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
